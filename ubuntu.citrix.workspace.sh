@@ -2,7 +2,7 @@
 #Instala la aplicación Citrix Workspace para distribuciones Linux basadas en Ubuntu/Debian
 
 #Descarga el cliente desde https://www.citrix.com/en-au/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
-#Seleccionar el paquete .deb para x86 o para x64
+#Seleccionar Debian packages -> Full packages -> .deb para (32bit)=x86 o para (64bit)=x86_64
 #Dejar el archivo descargado en Downloads
 #Descarga el certificado
 openssl s_client -showcerts -connect ev.seg-social.es:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >seg-social-es.cer
