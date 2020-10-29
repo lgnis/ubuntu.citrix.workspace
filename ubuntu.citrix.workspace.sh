@@ -28,4 +28,4 @@ cd util
 ./ctx_rehash 
 #Entramos a la configuración de la aplicación Citrix
 ./configmgr &
-#Aceptar la licencia
+#Aceptar la licencia y configurar la aplicación. Luego pulsar en "Guardar y cerrar"
