@@ -1,7 +1,7 @@
 #!/bin/sh
 #Instala la aplicación Citrix Workspace para distribuciones Linux basadas en Ubuntu/Debian
 
-#Descarga el cliente desde https://www.citrix.com/en-au/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
+#Descarga el cliente desde https://www.citrix.com/es-es/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 #Seleccionar Debian packages -> Full packages -> .deb para (32bit)=x86 o para (64bit)=x86_64
 #Dejar el archivo descargado en Downloads
 #Descarga el certificado
