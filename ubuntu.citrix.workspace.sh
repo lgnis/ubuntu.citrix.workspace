@@ -5,11 +5,11 @@
 #Seleccionar Debian packages -> Full packages -> .deb para (32bit)=x86 o para (64bit)=x86_64
 #Dejar el archivo descargado en Downloads
 #Descarga el certificado
-openssl s_client -showcerts -connect ev.seg-social.es:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >seg-social-es.cer
+openssl s_client -showcerts -connect www.oviedo.es:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >oviedo-es.cer
 #Cambia los permisos del certificado
-sudo chmod 644 seg-social-es.cer 
+sudo chmod 644 oviedo-es.cer 
 #Movemos el certificado a /etc/ssl/certs
-sudo mv seg-social-es.cer /etc/ssl/certs
+sudo mv oviedo-es.cer /etc/ssl/certs
 #Cambiar al directorio donde se ha descargado la aplicación de Citrix Workspace para Linux
 cd ..
 cd Downloads/
