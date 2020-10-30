@@ -5,7 +5,7 @@
 #Seleccionar Debian packages -> Full packages -> .deb para (32bit)=x86 o para (64bit)=x86_64
 #Dejar el archivo descargado en Downloads
 #Descarga el certificado
-openssl s_client -showcerts -connect www.oviedo.es:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >oviedo-es.cer
+openssl s_client -showcerts -connect extranet.oviedo.es:443 </dev/null 2>/dev/null|openssl x509 -outform PEM >oviedo-es.cer
 #Cambia los permisos del certificado
 sudo chmod 644 oviedo-es.cer 
 #Movemos el certificado a /etc/ssl/certs
